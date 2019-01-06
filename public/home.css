@@ -1,0 +1,30 @@
+#Jumbo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0, 0.65), rgba(0,0,0, 0.65)), url("https://www.gonzalezlandscaping.net/wp-content/uploads/2016/02/Landscaping-Slide-01.jpg");
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+#Jumbo h1{
+    font-size: 5em;
+    margin: 0;
+    font-weight: 300;
+}
+#Jumbo h2{
+    font-size: 3.5em;
+    margin: 0;
+    font-weight: 300;
+}
+
+#Jumbo h3{
+    font-size: 2em;
+    margin: 0;
+    font-weight: 300;
+}
+
+#Jumbo ul{
+    list-style: none;
+}
