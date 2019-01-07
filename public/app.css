@@ -35,3 +35,53 @@ body{
     color: white;
     background-color: rgb(255, 255, 255);
 }
+
+.browntext{
+    color: #653000;
+}
+
+.greentext{
+    color: #afd320;
+}
+
+.darkgreentext{
+    color: #4f792a;
+}
+
+.whitetext{
+    color: white;
+}
+
+.text70{
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+.textToUpper{
+    text-transform: uppercase;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.cardLayout{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 60px;
+}
+
+.cardText{
+    line-height: 2.0;
+}
+
+.cardTitleMargin{
+    margin: 10px 0px 60px 0px;
+}
+
+.HrGreenSpacer{
+    background-color: #afd320;
+    height:4px;
+    width:40px;
+    margin: 20px 0px;
+}

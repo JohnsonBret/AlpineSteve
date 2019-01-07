@@ -4,9 +4,11 @@
          <link rel="stylesheet" href="/home.css"> 
     <body>
         <section id="Jumbo">
-            <h3>- 100% SERVICE GUARANTEE -</h3>
+            <h3>- Local to Alpine, OR -</h3>
             <h1>LAWN AND GARDEN</h1>
-            <h2>DONE RIGHT</h2>
+            {{!-- <h2>DONE RIGHT</h2> --}}
+            <h3>- 100% SERVICE GUARANTEE -</h3>
+            <a href="#relnav"><img id="doubledown" src="icon-down-arrow.png"></a>
         </section>
     
          <nav id="relnav">
@@ -15,6 +17,63 @@
             <a href="#landscaping">LANDSCAPING</a>
             <a href="#garden">GARDEN</a>
         </nav>
+
+        <section class="gridContain">
+        <div id="lawncare" class="left mowerBG">
+          </div>
+          <div class="right cardLayout">
+            <div class="HrGreenSpacer"></div>
+            <h2 class="browntext text70 cardTitleMargin">Lawn Care</h2>
+            <p class="browntext cardText">We are committed to enhancing our clients’ most important investment by 
+                exceeding their lawn service needs with reliability and value. Imagine 
+                quality family time, rest and relaxation, and leaving the dirty work up to us.</p>
+            <p class="browntext cardText">Your business is just as important as ours. Like any other turf, the lawn around 
+                your business requires attention and service. Our flexibility and ability to 
+                customize a lawn care program for your property allows your business to make a 
+                great first impression.</p>
+        </div>
+
+        <div id="landscaping" class="left landscapeBG">
+            <div class="cardLayout">
+                <div class="HrGreenSpacer"></div>
+                <h2 class="whitetext text70 cardTitleMargin">Landscaping</h2>
+                <h3 class="greentext textToUpper">Flower Bed & Landscaping Maintenance</h3>
+                <p class="whitetext cardText">Our goal is to keep any flower beds or landscaping healthy, clean, safe and attractive. 
+                    Proper care will keep your flowers, shrubs and bushes as fresh as the day you planted them.</p>
+                <h3 class="greentext textToUpper">Mulch & Decorative Rock Installation</h3>
+                <p class="whitetext cardText">Let us shovel it for you! 
+                    Take back your weekend and let Dunner's install the mulch or decorative rock of your choice.</p>
+            </div>
+        </div>
+        <div class="right greenPathBG">
+            <div class="cardLayout">
+                <img src="gallery-cta.png" alt="">
+            </div>
+        </div>
+
+        <div id="services" class="left hammockBG">
+            
+        </div>
+        <div class="right">
+            <div class="cardLayout">
+                 <div class="HrGreenSpacer"></div>
+                <h2 class="browntext text70 cardTitleMargin">Services</h2>
+                <ul class="darkgreentext textToUpper services gridContain">
+                    <div class="left">
+                        <li><img src="icon-check.jpg">Weed Control</li>
+                        <li><img src="icon-check.jpg">De-Thatching</li>
+                        <li><img src="icon-check.jpg">Core Aeration Treatment</li>
+                    </div>
+                    <div class="right">
+                        <li><img src="icon-check.jpg">Edging</li>
+                        <li><img src="icon-check.jpg">Fertilization</li>
+                        <li><img src="icon-check.jpg">Power Washing</li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+
+        </section>
 
 
         {{> footer}}

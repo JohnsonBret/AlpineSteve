@@ -38,8 +38,6 @@
     margin-right: 15px;
 }
 
-
-
 #relnav a{
     margin: 10px;
     font-size: 1.5em;
@@ -63,4 +61,68 @@
 #relnav a:hover{
     text-decoration: none;
     color: #afd320;
+}
+
+#doubledown{
+    margin-top: 50px;
+    padding: 30px;
+    border: solid #afd320 3px;
+    border-radius: 50%;
+}
+
+#doubledown:hover{
+    background-color: rgba(175, 211, 32, 0.3);
+}
+
+.gridContain{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "left right";
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.left{
+
+}
+
+
+.right{
+
+}
+
+.mowerBG{
+    background-image: url("lawncare-dunner.jpg");
+}
+
+.landscapeBG{
+    background-image: url("landscaping-bg.jpg");
+}
+
+.greenPathBG{
+    background-image: url("gallery-bg.jpg");
+}
+
+.hammockBG{
+    background-image: url("hammock.jpg");
+}
+
+ul{
+    margin: 0;
+}
+
+.services{
+    font-size: 20px;
+    list-style: none;
+    margin: 0px 0px;
+}
+
+.services li{
+    margin: 20px 5px;
+}
+
+.services li img{
+    margin: 0px 5px;
 }
