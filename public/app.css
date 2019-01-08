@@ -13,6 +13,13 @@ header nav a i{
 header nav a{
     margin: 10px;
     font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+}
+
+heaver nav a:visited{
+    text-decoration: none;
+    color: white;
 }
 
 header nav{
@@ -24,15 +31,10 @@ header nav{
     background-color: rgb(79, 154, 54);
 }
 
-a, a:visited{
-    text-decoration: none;
-    color: white;
-}
 
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    color: white;
     background-color: rgb(255, 255, 255);
 }
 
@@ -84,4 +86,80 @@ body{
     height:4px;
     width:40px;
     margin: 20px 0px;
+}
+
+.footerBG{
+    background-image: url("footer-grass.jpg");
+}
+
+footer{
+    margin-top: 100px;
+    height: 40vh;
+}
+
+footer nav{
+    margin: 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+footer nav a{
+    color: #4f792a;
+    text-transform: uppercase;
+    margin: 40px 10px;
+    text-decoration: none;
+}
+
+footer nav a:visited{
+    color: #4f792a;
+    text-decoration: none;
+}
+
+#footerLogoContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+#footerLogoContainer a{
+    color: #4f792a;
+}
+
+#footerLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footerLogo a{
+    text-decoration: none;
+}
+
+
+#footerLogo i{
+    color: #4f792a;
+    font-size: 50px;
+}
+
+#copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#copyright p{
+   font-size: 12px;
+    
+}
+
+#footerGrass{
+    object-fit: contain;
+}
+
+.contactButton{
+    border: 2px solid #afd320;
+    text-decoration: none;
+    padding: 10px 20px;
 }
