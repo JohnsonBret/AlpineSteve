@@ -30,6 +30,7 @@
 
 .secondaryFlexRow{
     display:flex;
+   
 }
 
 .spaceBetween{
@@ -38,4 +39,60 @@
 
 .secondaryFlexItem{
     margin: 10px 30px;
+}
+
+.formLabelField{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.labelFieldPadding{
+    padding-right: 20px;
+}
+
+.formStyle{
+    background-color: rgb(79, 154, 54);
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.formTitle{
+    font-size: 40px;
+    margin: 10px 0px;
+}
+
+.labelTextSize{
+    font-size: 24px;
+}
+
+.textInput{
+    height: 32px;
+    font-size:20px;
+}
+
+.textInput:focus{
+    
+    box-shadow: 2px 2px 3px #afd320;
+}
+
+.textArea{
+    width: 50%;
+}
+
+.button{
+    background-color: white;
+    border: none;
+    color: #4f792a;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 10px 0px;
+}
+
+.button:hover{
+    background-color:#afd320;
 }
