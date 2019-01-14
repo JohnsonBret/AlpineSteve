@@ -17,9 +17,13 @@ header nav a{
     color: white;
 }
 
-heaver nav a:visited{
+header nav a:visited{
     text-decoration: none;
     color: white;
+}
+
+header nav a:hover{
+    color: #afd320;
 }
 
 header nav{
@@ -162,4 +166,16 @@ footer nav a:visited{
     border: 2px solid #afd320;
     text-decoration: none;
     padding: 10px 20px;
+}
+
+.contactButton:hover{
+    border: 2px solid #afd320;
+    background-color: #afd320;
+    color: #4f792a;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.secondaryHeader{
+    background-image: url("internal-bg2.jpg");
 }

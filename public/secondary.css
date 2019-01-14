@@ -1,0 +1,41 @@
+.secondaryHeader{
+    background-image: url("internal-bg2.jpg");
+    background-image: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.secondaryTextContainer{
+    width: 80%;
+}
+
+.secondaryMain{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondaryTitle{
+    margin: 34px 0px;
+    font-size: 40px;
+}
+
+.secondaryTextHeight{
+    line-height: 1.6;
+}
+
+.secondaryFlexRow{
+    display:flex;
+}
+
+.spaceBetween{
+    justify-content: space-between;
+}
+
+.secondaryFlexItem{
+    margin: 10px 30px;
+}
