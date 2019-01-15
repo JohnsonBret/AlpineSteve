@@ -138,3 +138,12 @@ ul{
 .services li img{
     margin: 0px 5px;
 }
+
+@media only screen and (max-width: 486px) {
+    .gridContain{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+  }
