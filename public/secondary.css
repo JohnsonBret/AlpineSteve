@@ -49,6 +49,7 @@
 
 .labelFieldPadding{
     padding-right: 20px;
+    margin: 5px 0px;
 }
 
 .formStyle{
@@ -74,11 +75,14 @@
 
 .textInput:focus{
     
-    box-shadow: 2px 2px 3px #afd320;
+    box-shadow: 2px 2px 5px #afd320;
 }
 
 .textArea{
-    width: 50%;
+    height:40%;
+    margin-right: 20px;
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .button{

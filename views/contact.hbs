@@ -7,6 +7,7 @@
             <div class="secondaryTextContainer">
                 <div class="HrGreenSpacer"></div>
                 <h1 class="whitetext text70">{{pageTitle}}</h1>
+                <h2 class="whitetext text70">{{thanksMsg}}</h2>
             </div>
         </section>
         <main class="secondaryMain">
@@ -35,10 +36,16 @@
                     <div class="secondaryFlexRow">
                         <div class="formLabelField labelFieldPadding">
                             <label class="labelTextSize whitetext">Address</label>
-                            <input class="textInput browntext" type="email" name="contactEmail" required>
+                            <input class="textInput browntext" type="text" name="contactStreet" placeholder="Street Address (optional)">
                         </div>
                     </div>
-                    <div class="formLabelField">
+                    <div class="secondaryFlexRow">
+                        <div class="formLabelField labelFieldPadding">
+                            <label class="labelTextSize whitetext">City</label>
+                            <input class="textInput browntext" type="text" name="contactCity" placeholder="City (optional)">
+                        </div>
+                    </div>
+                    <div class="formLabelField textArea">
                         <label class="labelTextSize whitetext">Questions?</label>
                         <textarea class="textArea browntext" name="contactQuestions"></textarea>
                     </div>

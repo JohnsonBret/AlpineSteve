@@ -1,6 +1,7 @@
 const express = require('express');
 const fs = require('fs');
 const hbs = require('hbs');
+const bodyParser = require('body-parser');
 
 const port = process.env.PORT || 3000;
 
@@ -8,6 +9,7 @@ var app = express();
 
 hbs.registerPartials(__dirname + "/views/partials");
 app.set('view engine', 'hbs');
+
 
 // app.use((req, res, next)=>{
 //     var now = new Date().toString();
@@ -28,6 +30,8 @@ app.set('view engine', 'hbs');
 // });
 
 app.use(express.static(__dirname + "/public"));
+app.use(bodyParser.urlencoded({extended: false }));
+app.use(bodyParser.json());
 
 hbs.registerHelper('getCurrentYear', ()=>{
     return new Date().getFullYear();
@@ -65,6 +69,20 @@ app.get('/contact', (req, res)=>{
 app.get('/bad', (req,res)=>{
     res.send({
         error : "Unable to handle Request"
+    });
+});
+
+app.post('/submit', (req, res)=>{
+    console.log(`Contact Name: ${req.body.contactName}
+                Contact Email: ${req.body.contactEmail}
+                Contact Number: ${req.body.contactNumber}
+                Contact Street ${req.body.contactStreet}
+                Contact City ${req.body.contactCity}
+                Contact Questions: ${req.body.contactQuestions}`);
+
+    res.render('contact.hbs', {
+        pageTitle: "Contact",
+        thanksMsg: "Thanks for contacting us!"
     });
 });
 
