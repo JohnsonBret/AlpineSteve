@@ -108,7 +108,8 @@
 }
 
 .greenPathBG{
-    background-image: url("gallery-bg.jpg");
+    background-image: url("tomatoes.jpg");
+    background-size: cover;
 }
 
 .hammockBG{
@@ -145,5 +146,49 @@ ul{
         flex-direction: column;
         width: 100%;
         justify-content: center;
+    }
+
+    #Jumbo h1{
+        font-size: 3em;
+        margin: 0;
+        font-weight: 300;
+    }
+    #Jumbo h2{
+        font-size: 1.5em;
+        margin: 0;
+        font-weight: 300;
+    }
+    
+    #Jumbo h3{
+        font-size: 2em;
+        margin: 0;
+        font-weight: 300;
+    }
+
+    #relnav a:first-child{
+        margin-right: 10px;
+        font-size: 1.5em;
+    }
+    #relnav a i{
+        margin-right: 10px;
+    }
+    
+    #relnav a{
+        margin: 10px;
+        font-size: 1.2em;
+    }
+    
+    #relnav{
+        margin: 0px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 20px 50px;
+        font-weight: 300;
+        background-color: rgb(79, 154, 54);
+    }
+
+    .pictureBgContainer{
+        height: 70vh;
     }
   }

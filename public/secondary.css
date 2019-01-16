@@ -41,6 +41,17 @@
     margin: 10px 30px;
 }
 
+.flexWidth50{
+    width: 50%;
+}
+
+.img50{
+    width: 100%;
+}
+
+
+
+
 .formLabelField{
     display: flex;
     flex-direction: column;
