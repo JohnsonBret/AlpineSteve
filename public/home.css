@@ -10,18 +10,23 @@
 }
 
 #Jumbo h1{
-    font-size: 5em;
+    font-size: 5rem;
     margin: 0;
     font-weight: 300;
 }
+
+#Jumbo h1 div{
+    display: inline;
+}
+
 #Jumbo h2{
-    font-size: 3.5em;
+    font-size: 3.5rem;
     margin: 0;
     font-weight: 300;
 }
 
 #Jumbo h3{
-    font-size: 2em;
+    font-size: 2rem;
     margin: 0;
     font-weight: 300;
 }
@@ -151,20 +156,34 @@ ul{
     }
 
     #Jumbo h1{
-        font-size: 3em;
+        font-size: 2.5rem;
         margin: 0;
         font-weight: 300;
+        text-align: center;
     }
+
+    #Jumbo h1 div{
+        display: block;
+    }
+    
+
     #Jumbo h2{
-        font-size: 1.5em;
+        font-size: 1rem;
         margin: 0;
         font-weight: 300;
     }
     
     #Jumbo h3{
-        font-size: 2em;
+        font-size: 1rem;
         margin: 0;
         font-weight: 300;
+    }
+
+    #doubledown{
+        margin-top: 25px;
+        padding: 30px;
+        border: solid #afd320 3px;
+        border-radius: 50%;
     }
 
     #relnav a:first-child{
