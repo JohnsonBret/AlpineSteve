@@ -25,26 +25,30 @@ hbs.registerHelper('screamIt', (text)=>{
 
 app.get('/', (req, res)=>{
     res.render('home.hbs', {
-        pageTitle: "Alpine Lawn",
-        welcomeMessage: "Welcome to this homepage"
+        pageTitle: "Alpine Garden",
+        welcomeMessage: "Welcome to this homepage",
+        company: "Alpine Garden"
     });
 });
 
 app.get('/about', (req, res)=>{
     res.render('about.hbs', {
-        pageTitle: "About"
+        pageTitle: "About",
+        company: "Alpine Garden"
     });
 });
 
 app.get('/services', (req, res)=>{
     res.render('services.hbs', {
-        pageTitle: "Services"
+        pageTitle: "Services",
+        company: "Alpine Garden"
     });
 });
 
 app.get('/contact', (req, res)=>{
     res.render('contact.hbs', {
-        pageTitle: "Contact"
+        pageTitle: "Contact",
+        company: "Alpine Garden"
     });
 });
 
@@ -64,7 +68,8 @@ app.post('/submit', (req, res)=>{
 
     res.render('contact.hbs', {
         pageTitle: "Contact",
-        thanksMsg: "Thanks for contacting us!"
+        thanksMsg: "Thanks for contacting us!",
+        company: "Alpine Garden"
     });
 });
 
