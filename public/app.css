@@ -74,6 +74,14 @@ body{
     text-align: center;
 }
 
+.cardGallery{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .cardLayout{
     display: flex;
     flex-direction: column;
@@ -91,6 +99,7 @@ body{
 .cardTitleMargin{
     margin: 10px 0px 60px 0px;
 }
+
 
 .HrGreenSpacer{
     background-color: #afd320;
