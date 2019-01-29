@@ -3,7 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0,0,0, 0.65), rgba(0,0,0, 0.65)), url("https://www.gonzalezlandscaping.net/wp-content/uploads/2016/02/Landscaping-Slide-01.jpg");
+    /* background-image: linear-gradient(rgba(0,0,0, 0.65), rgba(0,0,0, 0.65)), url("https://www.gonzalezlandscaping.net/wp-content/uploads/2016/02/Landscaping-Slide-01.jpg"); */
+    background-image: linear-gradient(rgba(0,0,0, 0.65), rgba(0,0,0, 0.65)), url("raised_bed.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
     height: 70vh;
@@ -154,7 +155,7 @@ ul{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image: linear-gradient(rgba(0,0,0, 0.65), rgba(0,0,0, 0.65)), url("https://www.gonzalezlandscaping.net/wp-content/uploads/2016/02/Landscaping-Slide-01.jpg");
+        background-image: linear-gradient(rgba(0,0,0, 0.65), rgba(0,0,0, 0.65)), url("raised_bed.jpg"); 
         background-repeat: no-repeat;
         background-size: cover;
         height: 600px;
