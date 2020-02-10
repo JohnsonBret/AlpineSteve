@@ -122,12 +122,18 @@
 
 .hammockBG{
     background-image: url("hammock.jpg");
+    background-position: 50% 50%;
+
 }
 
 .gardenBG{
     background-image: linear-gradient(#3f3420D9, #3f3420D9), url("garden.png");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.galleryText p{
+    text-align: center;
 }
 
 ul{
@@ -273,8 +279,10 @@ ul{
 
     .galleryText{
         text-transform: uppercase;
+        text-align: center;
         font-size: 0.8em;
     }
+
   }
 
   @media only screen and (max-width: 400px) {

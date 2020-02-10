@@ -78,8 +78,8 @@ body{
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-template-areas: 
         "picL picC picR";
     justify-content: center;
@@ -409,12 +409,5 @@ cursor: pointer;
         margin-top: 20px;
     }
 
-    .galleryText{
-        text-transform: uppercase;
-        font-size: 0.8em;
-    }
 
-    .camera{
-        font-size: 1.5rem;
-    }
   }
