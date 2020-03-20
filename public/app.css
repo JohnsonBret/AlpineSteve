@@ -320,7 +320,7 @@ cursor: pointer;
 }
 
   /* 100% Image Width on Smaller Screens */
-  @media only screen and (max-width: 800px){
+@media only screen and (max-width: 800px){
     .modal-content {
       width: 100%;
     }
@@ -333,7 +333,22 @@ cursor: pointer;
     .camera{
         font-size: 2.5rem;
     }
-  } 
+} 
+
+@media only screen and (max-device-width : 800px) and (orientation : landscape){
+
+    header nav{
+        padding: 25px 20px;
+    }
+
+    header nav a:first-child{
+        font-size: 2em;
+    }
+
+    header nav a{
+        font-size: 1.5em;
+    }
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -384,6 +399,12 @@ cursor: pointer;
   }
 
   @media only screen and (max-width: 400px) {
+
+    header nav a{
+        margin: 9px;
+        font-size: 1.3em;
+    }
+
     .text70{
         font-size: 2.2em;
         text-transform: uppercase;
@@ -408,6 +429,4 @@ cursor: pointer;
     footer{
         margin-top: 20px;
     }
-
-
   }
